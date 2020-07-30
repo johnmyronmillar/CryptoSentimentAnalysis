@@ -1,7 +1,8 @@
 # Tales-from-the-Crypto
 Natural Language Processing
 
-#### Sentiment Analysis
+
+### Sentiment Analysis
 
 > Which coin had the highest mean positive score?
 >ethereum mean 0.072 versus bitcoin 0.046
@@ -13,4 +14,10 @@ Natural Language Processing
 
 
 
-#### Named Entity Recognition
+### Named Entity Recognition
+
+In this section, you will build a named entity recognition model for both coins and visualize the tags using SpaCy.
+
+![btc-word-cloud.png](Images/Bitcoin_WordCloud.png)
+
+![eth-word-cloud.png](Images/Ethereum_WordCloud.png)
