@@ -7,11 +7,11 @@ This document compares Bitcoin to Ethereum using Natural Language Processing to 
 
 Based on the review of multiple news articles, Ethereum has higher postive sentiment.
 
-* Ethereum has a higher positive mean 0.072 versus Bitcoin 0.046
+* Ethereum has a higher positive mean 0.052 versus Bitcoin 0.046
 
-* Bitcoin has the highest negative score with a max negative score 0.277000	 versus Ethereum 0.177000
+* Bitcoin has the highest negative score with a max negative score 0.277	 versus Ethereum 0.177
 
-* Ethereum has the highest positive score with a max positive score 0.226000 versus Bitcoin 0.149000
+* Ethereum has the highest positive score with a max positive score 0.219 versus Bitcoin 0.149
 
 The negative view of Bitcoin maybe because it is more well known, therefore more people know the negative aspects of Bitcoin. I'd never heard of Ethereum until this year.
 
