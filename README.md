@@ -7,7 +7,7 @@ This document compares Bitcoin to Ethereum using Natural Language Processing to 
 
 Based on the review of multiple news articles, Ethereum has higher postive sentiment.
 
-* Ethereum has a higher positive mean 0.072 versus bitcoin 0.046
+* Ethereum has a higher positive mean 0.072 versus Bitcoin 0.046
 
 * Bitcoin has the highest negative score with a max negative score 0.277000	 versus Ethereum 0.177000
 
@@ -18,7 +18,7 @@ The negative view of Bitcoin maybe because it is more well known, therefore more
 ## Natural Language Processing
 ### Word Clouds
 
-I expand the default stopwords list
+Below is a word cloud for both Bitcoin and Ethereum based on the same articles used for Sentiment Analysis. I expanded the default stopwords list to include 'said' based on previous results. The word 'Char' is the most common, but a quick google search did not provide clarity on its meaning in relation to cryptocurrency. I would recommend additional rearch to determint if this word should be expluded. Based on the word cloud, I also considered excluding the following: 'ha', 'someone', 'havent' and 'someone'.
 
 ![btc-word-cloud.png](Images/Bitcoin_WordCloud.png)
 
@@ -26,4 +26,4 @@ I expand the default stopwords list
 
 ## Named Entity Recognition
 
-In this section, you will build a named entity recognition model for both coins and visualize the tags using SpaCy.
+The name entity recognition model for both coins did miss a few items. It has Kanye West as GPE, since he's running for President that should be a well known PERSON not a GPE. I couldn't find a person named Appleto. It also has Elon Musk as an ORG sometimes and a PERSON other times.
